@@ -1,2 +1,2 @@
 # team_project_c1
-my first team project
+Our first team project
