@@ -2,7 +2,7 @@
 int main() {
   FILE *fp = fopen("sj.txt", "r");
   if (fp == NULL) {
-    printf("No file !");
+    printf("Error opening the file.");
     return 1;
   }
   char name1[256];
