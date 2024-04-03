@@ -25,7 +25,7 @@ int main() {
     average = (float)sum / count;
 
     printf(name);
-    printf("%d, %d, %d\n", scores[0], scores[1], scores[2]);
+    printf("%d\n%d\n%d\n", scores[0], scores[1], scores[2]);
     printf("%.2f\n", average);
 
     sj1File = fopen("sj1.txt", "w");
