@@ -4,7 +4,7 @@ int main() {
     char name[100];
     float num1, num2, num3, average;
     // 읽기 위해 파일 열기
-    file = fopen("sj.txt", "r"); 
+    file = fopen("sj1.txt", "r"); 
     if (file == NULL) {
         printf("Error opening the file.\n");
         return 1;
