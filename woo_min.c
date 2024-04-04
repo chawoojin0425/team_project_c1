@@ -20,7 +20,7 @@ int main() {
   // 파일에 더 이상 읽어올 내용이 없을때까지 반복해서 데이터 읽기 및 출력
   while (fscanf(input_file, "%[^\n] %d %d %d", name, &score1, &score2,
                 &score3) != EOF) {
-    printf("%s %d %d %d\n", name, score1, score2, score3);
+    printf("%s\n%d\n%d\n%d\n", name, score1, score2, score3);
     // %[^\n] : 사용자가 줄바꿈을 입력하기 전 까지의 문자열을 받아옴
     // %d : 정수를 받아옴
     // %s : 문자열을 받아옴(공백 있으면 공백이 있기 전 까지만 받아옴)
